@@ -1,0 +1,15 @@
+//aspx code
+
+        <asp:TreeView ID="TreeView1" runat="server" style="margin-right: 83px" OnSelectedNodeChanged="TreeView1_SelectedNodeChanged" OnTreeNodeCollapsed="TreeView1_TreeNodeCollapsed">
+
+//aspx.cs code 
+
+
+ protected void TreeView1_SelectedNodeChanged(object sender, EventArgs e)
+        {
+            Response.Write("You Have the selected the option :" + TreeView1.SelectedValue);
+        }
+        protected void TreeView1_TreeNodeCollapsed(object sender, TreeNodeEventArgs e)
+        {
+            Response.Write("The Vakue Collapsed was:" + e.Node.Value);
+        }
