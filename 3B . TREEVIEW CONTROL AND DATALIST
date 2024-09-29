@@ -1,0 +1,24 @@
+//aspx code
+
+       <asp:DataList ID="DataList1" runat="server">
+            <ItemTemplate>
+                <%# Eval("text") %>
+            </ItemTemplate>
+
+        </asp:DataList>
+
+
+  //aspx.cs cod e
+
+
+
+    protected void Button1_Click(object sender, EventArgs e)
+        {
+            TreeNodeCollection T;
+            T = TreeView1.CheckedNodes;
+            DataList1.DataSource = T;
+            DataList1.DataBind();
+            DataList1.Visible = true;
+
+        }
+
