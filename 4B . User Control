@@ -1,0 +1,19 @@
+//cs file 
+
+ protected void Button1_Click(object sender, EventArgs e)
+        {
+            TextBox2.Text = "Hello huest" + TextBox1.Text;
+        }
+
+//aspx file 
+
+<%@Register Src="~/WebUserControl1.ascx" TagName ="WebUserControl" TagPrefix="ucl" %>
+
+
+  <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br />
+
+            <ucl:WebUserControl runat="server" id ="WebUserControl1" />
+
+            </div>
+
+
