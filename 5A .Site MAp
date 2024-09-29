@@ -1,0 +1,8 @@
+// web.sonfig code 
+
+  <system.web>
+	  <siteMap>
+		  <providers>
+			  <remove name="MysqlSiteMapProvider"/>
+		  </providers>
+	  </siteMap>
