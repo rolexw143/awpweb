@@ -1,0 +1,12 @@
+//cs code 
+
+
+ protected void Page_Load(object sender, EventArgs e)
+        {
+            System.Threading.Thread.Sleep(2000);
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            TextBox1.Text = DateTime.Now.ToLongTimeString();
+        }
