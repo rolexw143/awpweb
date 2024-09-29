@@ -1,0 +1,8 @@
+//asterpage code 
+
+ <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+
+
+ //skin page code 
+
+ <asp:Label runat="server" SkinId="lbl" backcolor="blue" />
