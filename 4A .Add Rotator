@@ -1,0 +1,20 @@
+//xml file code 
+
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>nobita.png</ImageUrl>
+		<NavigateUrl>https://google.com</NavigateUrl>
+		<AlternateText>nobita</AlternateText>
+		<Impressions>50</Impressions>
+		<Keyword>nobie</Keyword>
+	</Ad>
+
+	<Ad>
+		<ImageUrl>doraa.jpg</ImageUrl>
+		<NavigateUrl>https://google.com</NavigateUrl>
+		<AlternateText>nobita</AlternateText>
+		<Impressions>50</Impressions>
+		<Keyword>nobie</Keyword>
+	</Ad>
+</Advertisements>
